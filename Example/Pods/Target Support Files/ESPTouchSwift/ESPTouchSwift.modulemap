@@ -1,0 +1,6 @@
+framework module ESPTouchSwift {
+  umbrella header "ESPTouchSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

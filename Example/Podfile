@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ESPTouchSwift_Example' do
+  pod 'ESPTouchSwift', :path => '../'
+
+  target 'ESPTouchSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

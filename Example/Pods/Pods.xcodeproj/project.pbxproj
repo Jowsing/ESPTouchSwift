@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020EB0DB7935BF79EF07375A45B75B0D /* Pods-ESPTouchSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F54CF85D6A42951C9CBEE7AAD29877 /* Pods-ESPTouchSwift_Tests-dummy.m */; };
+		0A02093BD25CF9F062A756A2DCC1B463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2F4CB555F550C5A13B9CF33614F32D28 /* Pods-ESPTouchSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0616E68ACA5181016A65BEA6A24B1DB /* Pods-ESPTouchSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AB723AF6EC0F18E8AA61AA2BAE6991F /* Pods-ESPTouchSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A002B95D6342A3AE31F7C095207E0E48 /* Pods-ESPTouchSwift_Example-dummy.m */; };
+		5E48C3C9BC752124DDF5B812D95FB6AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		68C393858EA2F65F3D0FFB6A73DA5A97 /* ESPTouchSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3E2B17495B917B93A922B5DF691DE3 /* ESPTouchSwift-dummy.m */; };
+		7EA353143A0C1476F38E30E1D7E0EA89 /* Pods-ESPTouchSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC2B6E925F1838F746580C1CB8DF63D /* Pods-ESPTouchSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82A21239249F2CB600204BC9 /* ESPTouchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A21213249F2CB600204BC9 /* ESPTouchManager.swift */; };
+		82A2123A249F2CB600204BC9 /* ESPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A21215249F2CB600204BC9 /* ESPTools.m */; };
+		82A2123B249F2CB600204BC9 /* ESP_NetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A21216249F2CB600204BC9 /* ESP_NetUtil.m */; };
+		82A2123C249F2CB600204BC9 /* ESP_ByteUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A21217249F2CB600204BC9 /* ESP_ByteUtil.m */; };
+		82A2123D249F2CB600204BC9 /* ESP_WifiUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A21218249F2CB600204BC9 /* ESP_WifiUtil.m */; };
+		82A2123E249F2CB600204BC9 /* ESP_CRC8.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A21219249F2CB600204BC9 /* ESP_CRC8.m */; };
+		82A2123F249F2CB600204BC9 /* ESPVersionMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A2121A249F2CB600204BC9 /* ESPVersionMacro.h */; };
+		82A21240249F2CB600204BC9 /* ESPAES.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A2121B249F2CB600204BC9 /* ESPAES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82A21241249F2CB600204BC9 /* ESP_NetUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A2121C249F2CB600204BC9 /* ESP_NetUtil.h */; };
+		82A21242249F2CB600204BC9 /* ESP_ByteUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A2121D249F2CB600204BC9 /* ESP_ByteUtil.h */; };
+		82A21243249F2CB600204BC9 /* ESPTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A2121E249F2CB600204BC9 /* ESPTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82A21244249F2CB600204BC9 /* ESP_CRC8.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A2121F249F2CB600204BC9 /* ESP_CRC8.h */; };
+		82A21245249F2CB600204BC9 /* ESP_WifiUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A21220249F2CB600204BC9 /* ESP_WifiUtil.h */; };
+		82A21246249F2CB600204BC9 /* ESPAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A21221249F2CB600204BC9 /* ESPAES.m */; };
+		82A21247249F2CB600204BC9 /* ESPTouchDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A21222249F2CB600204BC9 /* ESPTouchDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82A21248249F2CB600204BC9 /* ESPTouchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A21223249F2CB600204BC9 /* ESPTouchError.swift */; };
+		82A21249249F2CB600204BC9 /* ESPTouchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A21224249F2CB600204BC9 /* ESPTouchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82A2124A249F2CB600204BC9 /* ESPTouchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A21226249F2CB600204BC9 /* ESPTouchResult.m */; };
+		82A2124B249F2CB600204BC9 /* ESPTouchTaskParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A21227249F2CB600204BC9 /* ESPTouchTaskParameter.h */; };
+		82A2124C249F2CB600204BC9 /* ESPTouchTaskParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A21228249F2CB600204BC9 /* ESPTouchTaskParameter.m */; };
+		82A2124D249F2CB600204BC9 /* ESPTouchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A21229249F2CB600204BC9 /* ESPTouchTask.m */; };
+		82A2124E249F2CB600204BC9 /* ESPTouchTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A2122A249F2CB600204BC9 /* ESPTouchTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82A2124F249F2CB600204BC9 /* ESPUDPSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A2122C249F2CB600204BC9 /* ESPUDPSocketClient.h */; };
+		82A21250249F2CB600204BC9 /* ESPUDPSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A2122D249F2CB600204BC9 /* ESPUDPSocketServer.m */; };
+		82A21251249F2CB600204BC9 /* ESPUDPSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A2122E249F2CB600204BC9 /* ESPUDPSocketClient.m */; };
+		82A21252249F2CB600204BC9 /* ESPUDPSocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A2122F249F2CB600204BC9 /* ESPUDPSocketServer.h */; };
+		82A21253249F2CB600204BC9 /* ESPGuideCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A21231249F2CB600204BC9 /* ESPGuideCode.m */; };
+		82A21254249F2CB600204BC9 /* ESPTouchGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A21232249F2CB600204BC9 /* ESPTouchGenerator.m */; };
+		82A21255249F2CB600204BC9 /* ESPDataCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A21233249F2CB600204BC9 /* ESPDataCode.h */; };
+		82A21256249F2CB600204BC9 /* ESPDatumCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A21234249F2CB600204BC9 /* ESPDatumCode.h */; };
+		82A21257249F2CB600204BC9 /* ESPGuideCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A21235249F2CB600204BC9 /* ESPGuideCode.h */; };
+		82A21258249F2CB600204BC9 /* ESPDataCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A21236249F2CB600204BC9 /* ESPDataCode.m */; };
+		82A21259249F2CB600204BC9 /* ESPTouchGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A21237249F2CB600204BC9 /* ESPTouchGenerator.h */; };
+		82A2125A249F2CB600204BC9 /* ESPDatumCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A21238249F2CB600204BC9 /* ESPDatumCode.m */; };
+		82C8F4D12A4CED5A1856ED735F7DD24F /* ESPTouchSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D2DFD3443BE10B4C3DCBAA9FF0C487A /* ESPTouchSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBE53D249805186E3175277C70D66BE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63D3E2A8C81BE7C819D6A16066971793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E49FDA38008CD52BD8B0A99DBFE73100;
+			remoteInfo = ESPTouchSwift;
+		};
+		ED414E314EBE9CA98B7459089A84F3E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23FD047C14E92C8A196EC924A309D619;
+			remoteInfo = "Pods-ESPTouchSwift_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FBE614FF474456B49AEF776E1540024 /* ESPTouchSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ESPTouchSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21251B752CDE25129469C713494F239F /* Pods-ESPTouchSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESPTouchSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		22D6D1DFD5473E0FC48A580B5F859C45 /* Pods-ESPTouchSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ESPTouchSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		2ABF8373B9CB5C5EC1A086C8524D64FC /* Pods-ESPTouchSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ESPTouchSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2C6FB5561FDBAF25116DB49AA7C2716D /* ESPTouchSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ESPTouchSwift.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B9248911B8D9133EE8AEC4A18959F6A /* ESPTouchSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ESPTouchSwift-Info.plist"; sourceTree = "<group>"; };
+		3D2DFD3443BE10B4C3DCBAA9FF0C487A /* ESPTouchSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESPTouchSwift-umbrella.h"; sourceTree = "<group>"; };
+		3DBBFAA9C7D9A40476F80C7787EC65E1 /* ESPTouchSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESPTouchSwift-prefix.pch"; sourceTree = "<group>"; };
+		4164BB8DD8A89219A071225223DAC888 /* Pods-ESPTouchSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ESPTouchSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42187DD6040E095ED7A9B7087CE082F4 /* Pods-ESPTouchSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ESPTouchSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		487EBFCD3FDC92E6D2A0EA8E6892DDBE /* Pods-ESPTouchSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESPTouchSwift_Example-Info.plist"; sourceTree = "<group>"; };
+		4DD9A62746E87333C6910FFA18FDC940 /* Pods_ESPTouchSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESPTouchSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E057CF5301FF990594BD0061094FB84 /* ESPTouchSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ESPTouchSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5FC205673B4580AB4263802A42FB0520 /* Pods_ESPTouchSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESPTouchSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC2B6E925F1838F746580C1CB8DF63D /* Pods-ESPTouchSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESPTouchSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7140F8E1D44845D2626FA235F72567AC /* Pods-ESPTouchSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESPTouchSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E7E06970292D4A491B42010297370DA /* Pods-ESPTouchSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESPTouchSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		818F6F42072AEAF4C10CA8C2CA9B3C84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		82A21213249F2CB600204BC9 /* ESPTouchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ESPTouchManager.swift; path = ESPTouchSwift/Classes/ESPTouchManager.swift; sourceTree = "<group>"; };
+		82A21215249F2CB600204BC9 /* ESPTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTools.m; sourceTree = "<group>"; };
+		82A21216249F2CB600204BC9 /* ESP_NetUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_NetUtil.m; sourceTree = "<group>"; };
+		82A21217249F2CB600204BC9 /* ESP_ByteUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_ByteUtil.m; sourceTree = "<group>"; };
+		82A21218249F2CB600204BC9 /* ESP_WifiUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_WifiUtil.m; sourceTree = "<group>"; };
+		82A21219249F2CB600204BC9 /* ESP_CRC8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESP_CRC8.m; sourceTree = "<group>"; };
+		82A2121A249F2CB600204BC9 /* ESPVersionMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPVersionMacro.h; sourceTree = "<group>"; };
+		82A2121B249F2CB600204BC9 /* ESPAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPAES.h; sourceTree = "<group>"; };
+		82A2121C249F2CB600204BC9 /* ESP_NetUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_NetUtil.h; sourceTree = "<group>"; };
+		82A2121D249F2CB600204BC9 /* ESP_ByteUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_ByteUtil.h; sourceTree = "<group>"; };
+		82A2121E249F2CB600204BC9 /* ESPTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTools.h; sourceTree = "<group>"; };
+		82A2121F249F2CB600204BC9 /* ESP_CRC8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_CRC8.h; sourceTree = "<group>"; };
+		82A21220249F2CB600204BC9 /* ESP_WifiUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESP_WifiUtil.h; sourceTree = "<group>"; };
+		82A21221249F2CB600204BC9 /* ESPAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPAES.m; sourceTree = "<group>"; };
+		82A21222249F2CB600204BC9 /* ESPTouchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPTouchDelegate.h; path = ESPTouchSwift/Classes/ESPTouchDelegate.h; sourceTree = "<group>"; };
+		82A21223249F2CB600204BC9 /* ESPTouchError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ESPTouchError.swift; path = ESPTouchSwift/Classes/ESPTouchError.swift; sourceTree = "<group>"; };
+		82A21224249F2CB600204BC9 /* ESPTouchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPTouchResult.h; path = ESPTouchSwift/Classes/ESPTouchResult.h; sourceTree = "<group>"; };
+		82A21226249F2CB600204BC9 /* ESPTouchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchResult.m; sourceTree = "<group>"; };
+		82A21227249F2CB600204BC9 /* ESPTouchTaskParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchTaskParameter.h; sourceTree = "<group>"; };
+		82A21228249F2CB600204BC9 /* ESPTouchTaskParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTaskParameter.m; sourceTree = "<group>"; };
+		82A21229249F2CB600204BC9 /* ESPTouchTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTask.m; sourceTree = "<group>"; };
+		82A2122A249F2CB600204BC9 /* ESPTouchTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ESPTouchTask.h; path = ESPTouchSwift/Classes/ESPTouchTask.h; sourceTree = "<group>"; };
+		82A2122C249F2CB600204BC9 /* ESPUDPSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketClient.h; sourceTree = "<group>"; };
+		82A2122D249F2CB600204BC9 /* ESPUDPSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketServer.m; sourceTree = "<group>"; };
+		82A2122E249F2CB600204BC9 /* ESPUDPSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketClient.m; sourceTree = "<group>"; };
+		82A2122F249F2CB600204BC9 /* ESPUDPSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketServer.h; sourceTree = "<group>"; };
+		82A21231249F2CB600204BC9 /* ESPGuideCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPGuideCode.m; sourceTree = "<group>"; };
+		82A21232249F2CB600204BC9 /* ESPTouchGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTouchGenerator.m; sourceTree = "<group>"; };
+		82A21233249F2CB600204BC9 /* ESPDataCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPDataCode.h; sourceTree = "<group>"; };
+		82A21234249F2CB600204BC9 /* ESPDatumCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPDatumCode.h; sourceTree = "<group>"; };
+		82A21235249F2CB600204BC9 /* ESPGuideCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPGuideCode.h; sourceTree = "<group>"; };
+		82A21236249F2CB600204BC9 /* ESPDataCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPDataCode.m; sourceTree = "<group>"; };
+		82A21237249F2CB600204BC9 /* ESPTouchGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchGenerator.h; sourceTree = "<group>"; };
+		82A21238249F2CB600204BC9 /* ESPDatumCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPDatumCode.m; sourceTree = "<group>"; };
+		8EC6E22D01B80E5E459A39867F58BA0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		90598CA33379788D1FE6F472DDBF8933 /* Pods-ESPTouchSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESPTouchSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9170A86B0670B113E4175EDD4DB912A8 /* ESPTouchSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ESPTouchSwift.debug.xcconfig; sourceTree = "<group>"; };
+		96D1335AB3319C15120D22FF89CD15F1 /* Pods-ESPTouchSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ESPTouchSwift_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A002B95D6342A3AE31F7C095207E0E48 /* Pods-ESPTouchSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESPTouchSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		ABA4D9BC5895F8D1D6068E9306F2418C /* ESPTouchSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ESPTouchSwift.release.xcconfig; sourceTree = "<group>"; };
+		B4006B2DB3FBDC7C082219BFF908DC00 /* Pods-ESPTouchSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESPTouchSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BA3E2B17495B917B93A922B5DF691DE3 /* ESPTouchSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESPTouchSwift-dummy.m"; sourceTree = "<group>"; };
+		BDE0D5398AA4503BF7F161E746BA7F0E /* Pods-ESPTouchSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESPTouchSwift_Tests-Info.plist"; sourceTree = "<group>"; };
+		E0616E68ACA5181016A65BEA6A24B1DB /* Pods-ESPTouchSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESPTouchSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		E8F54CF85D6A42951C9CBEE7AAD29877 /* Pods-ESPTouchSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESPTouchSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		EBB013BE96DCA507E2BBAC43EEECBD01 /* Pods-ESPTouchSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESPTouchSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C11139988433758B31E5E551F6E064D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E48C3C9BC752124DDF5B812D95FB6AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4129D847F34191DE9BEAED42FD5BABD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE53D249805186E3175277C70D66BE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85EC339B85AFA6E6276FA95B2B76586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A02093BD25CF9F062A756A2DCC1B463 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20CD06224C390BAA99005799DC7C00E6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED8353069B238B5C176B5A6B743F1890 /* ESPTouchSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2AED0D89714A3CBDE3D66BBFEA109C23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C6FB5561FDBAF25116DB49AA7C2716D /* ESPTouchSwift.modulemap */,
+				BA3E2B17495B917B93A922B5DF691DE3 /* ESPTouchSwift-dummy.m */,
+				3B9248911B8D9133EE8AEC4A18959F6A /* ESPTouchSwift-Info.plist */,
+				3DBBFAA9C7D9A40476F80C7787EC65E1 /* ESPTouchSwift-prefix.pch */,
+				3D2DFD3443BE10B4C3DCBAA9FF0C487A /* ESPTouchSwift-umbrella.h */,
+				9170A86B0670B113E4175EDD4DB912A8 /* ESPTouchSwift.debug.xcconfig */,
+				ABA4D9BC5895F8D1D6068E9306F2418C /* ESPTouchSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ESPTouchSwift";
+			sourceTree = "<group>";
+		};
+		7DC59225D7919D95653ABA47185E2700 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				82A21222249F2CB600204BC9 /* ESPTouchDelegate.h */,
+				82A21223249F2CB600204BC9 /* ESPTouchError.swift */,
+				82A21213249F2CB600204BC9 /* ESPTouchManager.swift */,
+				82A21224249F2CB600204BC9 /* ESPTouchResult.h */,
+				82A2122A249F2CB600204BC9 /* ESPTouchTask.h */,
+				82A21214249F2CB600204BC9 /* ESPUtils */,
+				82A21230249F2CB600204BC9 /* protocol */,
+				82A21225249F2CB600204BC9 /* task */,
+				82A2122B249F2CB600204BC9 /* udp */,
+				4E057CF5301FF990594BD0061094FB84 /* ESPTouchSwift.podspec */,
+				818F6F42072AEAF4C10CA8C2CA9B3C84 /* LICENSE */,
+				8EC6E22D01B80E5E459A39867F58BA0B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		82A21214249F2CB600204BC9 /* ESPUtils */ = {
+			isa = PBXGroup;
+			children = (
+				82A21215249F2CB600204BC9 /* ESPTools.m */,
+				82A21216249F2CB600204BC9 /* ESP_NetUtil.m */,
+				82A21217249F2CB600204BC9 /* ESP_ByteUtil.m */,
+				82A21218249F2CB600204BC9 /* ESP_WifiUtil.m */,
+				82A21219249F2CB600204BC9 /* ESP_CRC8.m */,
+				82A2121A249F2CB600204BC9 /* ESPVersionMacro.h */,
+				82A2121B249F2CB600204BC9 /* ESPAES.h */,
+				82A2121C249F2CB600204BC9 /* ESP_NetUtil.h */,
+				82A2121D249F2CB600204BC9 /* ESP_ByteUtil.h */,
+				82A2121E249F2CB600204BC9 /* ESPTools.h */,
+				82A2121F249F2CB600204BC9 /* ESP_CRC8.h */,
+				82A21220249F2CB600204BC9 /* ESP_WifiUtil.h */,
+				82A21221249F2CB600204BC9 /* ESPAES.m */,
+			);
+			name = ESPUtils;
+			path = ESPTouchSwift/Classes/ESPUtils;
+			sourceTree = "<group>";
+		};
+		82A21225249F2CB600204BC9 /* task */ = {
+			isa = PBXGroup;
+			children = (
+				82A21226249F2CB600204BC9 /* ESPTouchResult.m */,
+				82A21227249F2CB600204BC9 /* ESPTouchTaskParameter.h */,
+				82A21228249F2CB600204BC9 /* ESPTouchTaskParameter.m */,
+				82A21229249F2CB600204BC9 /* ESPTouchTask.m */,
+			);
+			name = task;
+			path = ESPTouchSwift/Classes/task;
+			sourceTree = "<group>";
+		};
+		82A2122B249F2CB600204BC9 /* udp */ = {
+			isa = PBXGroup;
+			children = (
+				82A2122C249F2CB600204BC9 /* ESPUDPSocketClient.h */,
+				82A2122D249F2CB600204BC9 /* ESPUDPSocketServer.m */,
+				82A2122E249F2CB600204BC9 /* ESPUDPSocketClient.m */,
+				82A2122F249F2CB600204BC9 /* ESPUDPSocketServer.h */,
+			);
+			name = udp;
+			path = ESPTouchSwift/Classes/udp;
+			sourceTree = "<group>";
+		};
+		82A21230249F2CB600204BC9 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				82A21231249F2CB600204BC9 /* ESPGuideCode.m */,
+				82A21232249F2CB600204BC9 /* ESPTouchGenerator.m */,
+				82A21233249F2CB600204BC9 /* ESPDataCode.h */,
+				82A21234249F2CB600204BC9 /* ESPDatumCode.h */,
+				82A21235249F2CB600204BC9 /* ESPGuideCode.h */,
+				82A21236249F2CB600204BC9 /* ESPDataCode.m */,
+				82A21237249F2CB600204BC9 /* ESPTouchGenerator.h */,
+				82A21238249F2CB600204BC9 /* ESPDatumCode.m */,
+			);
+			name = protocol;
+			path = ESPTouchSwift/Classes/protocol;
+			sourceTree = "<group>";
+		};
+		82AA8269C7EE75F04BB9FD4D3401C26F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF86BC401BF2608738F30A6311D4AE6B /* Pods-ESPTouchSwift_Example */,
+				BA5574FC587FB184CC19E4160FF80667 /* Pods-ESPTouchSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		89EA2BA1D71DBA6A17BF791E5D9AD909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FBE614FF474456B49AEF776E1540024 /* ESPTouchSwift.framework */,
+				5FC205673B4580AB4263802A42FB0520 /* Pods_ESPTouchSwift_Example.framework */,
+				4DD9A62746E87333C6910FFA18FDC940 /* Pods_ESPTouchSwift_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA5574FC587FB184CC19E4160FF80667 /* Pods-ESPTouchSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				22D6D1DFD5473E0FC48A580B5F859C45 /* Pods-ESPTouchSwift_Tests.modulemap */,
+				4164BB8DD8A89219A071225223DAC888 /* Pods-ESPTouchSwift_Tests-acknowledgements.markdown */,
+				21251B752CDE25129469C713494F239F /* Pods-ESPTouchSwift_Tests-acknowledgements.plist */,
+				E8F54CF85D6A42951C9CBEE7AAD29877 /* Pods-ESPTouchSwift_Tests-dummy.m */,
+				BDE0D5398AA4503BF7F161E746BA7F0E /* Pods-ESPTouchSwift_Tests-Info.plist */,
+				5FC2B6E925F1838F746580C1CB8DF63D /* Pods-ESPTouchSwift_Tests-umbrella.h */,
+				EBB013BE96DCA507E2BBAC43EEECBD01 /* Pods-ESPTouchSwift_Tests.debug.xcconfig */,
+				90598CA33379788D1FE6F472DDBF8933 /* Pods-ESPTouchSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-ESPTouchSwift_Tests";
+			path = "Target Support Files/Pods-ESPTouchSwift_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				20CD06224C390BAA99005799DC7C00E6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				89EA2BA1D71DBA6A17BF791E5D9AD909 /* Products */,
+				82AA8269C7EE75F04BB9FD4D3401C26F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED8353069B238B5C176B5A6B743F1890 /* ESPTouchSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7DC59225D7919D95653ABA47185E2700 /* Pod */,
+				2AED0D89714A3CBDE3D66BBFEA109C23 /* Support Files */,
+			);
+			name = ESPTouchSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EF86BC401BF2608738F30A6311D4AE6B /* Pods-ESPTouchSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				96D1335AB3319C15120D22FF89CD15F1 /* Pods-ESPTouchSwift_Example.modulemap */,
+				42187DD6040E095ED7A9B7087CE082F4 /* Pods-ESPTouchSwift_Example-acknowledgements.markdown */,
+				7140F8E1D44845D2626FA235F72567AC /* Pods-ESPTouchSwift_Example-acknowledgements.plist */,
+				A002B95D6342A3AE31F7C095207E0E48 /* Pods-ESPTouchSwift_Example-dummy.m */,
+				2ABF8373B9CB5C5EC1A086C8524D64FC /* Pods-ESPTouchSwift_Example-frameworks.sh */,
+				487EBFCD3FDC92E6D2A0EA8E6892DDBE /* Pods-ESPTouchSwift_Example-Info.plist */,
+				E0616E68ACA5181016A65BEA6A24B1DB /* Pods-ESPTouchSwift_Example-umbrella.h */,
+				7E7E06970292D4A491B42010297370DA /* Pods-ESPTouchSwift_Example.debug.xcconfig */,
+				B4006B2DB3FBDC7C082219BFF908DC00 /* Pods-ESPTouchSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-ESPTouchSwift_Example";
+			path = "Target Support Files/Pods-ESPTouchSwift_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		805E2D070846170ACB9A709076B75163 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA353143A0C1476F38E30E1D7E0EA89 /* Pods-ESPTouchSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24B5DBF9CA5A81EFEE6F999910FEA1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A21245249F2CB600204BC9 /* ESP_WifiUtil.h in Headers */,
+				82C8F4D12A4CED5A1856ED735F7DD24F /* ESPTouchSwift-umbrella.h in Headers */,
+				82A21256249F2CB600204BC9 /* ESPDatumCode.h in Headers */,
+				82A2124E249F2CB600204BC9 /* ESPTouchTask.h in Headers */,
+				82A21242249F2CB600204BC9 /* ESP_ByteUtil.h in Headers */,
+				82A2123F249F2CB600204BC9 /* ESPVersionMacro.h in Headers */,
+				82A21249249F2CB600204BC9 /* ESPTouchResult.h in Headers */,
+				82A21247249F2CB600204BC9 /* ESPTouchDelegate.h in Headers */,
+				82A2124F249F2CB600204BC9 /* ESPUDPSocketClient.h in Headers */,
+				82A21243249F2CB600204BC9 /* ESPTools.h in Headers */,
+				82A21240249F2CB600204BC9 /* ESPAES.h in Headers */,
+				82A21255249F2CB600204BC9 /* ESPDataCode.h in Headers */,
+				82A21241249F2CB600204BC9 /* ESP_NetUtil.h in Headers */,
+				82A21257249F2CB600204BC9 /* ESPGuideCode.h in Headers */,
+				82A2124B249F2CB600204BC9 /* ESPTouchTaskParameter.h in Headers */,
+				82A21244249F2CB600204BC9 /* ESP_CRC8.h in Headers */,
+				82A21252249F2CB600204BC9 /* ESPUDPSocketServer.h in Headers */,
+				82A21259249F2CB600204BC9 /* ESPTouchGenerator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC5C77284C6CC20F39A40E5B7636410 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4CB555F550C5A13B9CF33614F32D28 /* Pods-ESPTouchSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23FD047C14E92C8A196EC924A309D619 /* Pods-ESPTouchSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D856EA1B5DA36C54BBBAA4812701FFF /* Build configuration list for PBXNativeTarget "Pods-ESPTouchSwift_Example" */;
+			buildPhases = (
+				ECC5C77284C6CC20F39A40E5B7636410 /* Headers */,
+				D450F2D36C9BBFC95A15E000283500DE /* Sources */,
+				4129D847F34191DE9BEAED42FD5BABD2 /* Frameworks */,
+				BE3F7629D2E67C099B4120BAED693296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B929560DDED91934A5151C39F9FC886 /* PBXTargetDependency */,
+			);
+			name = "Pods-ESPTouchSwift_Example";
+			productName = "Pods-ESPTouchSwift_Example";
+			productReference = 5FC205673B4580AB4263802A42FB0520 /* Pods_ESPTouchSwift_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C44814DBA62C11572BF8AEB5BE07A9B /* Pods-ESPTouchSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5F7CFA97E837F872870689E427A2F2 /* Build configuration list for PBXNativeTarget "Pods-ESPTouchSwift_Tests" */;
+			buildPhases = (
+				805E2D070846170ACB9A709076B75163 /* Headers */,
+				5C6ADD0CF90F348AD924327F28F6C44E /* Sources */,
+				F85EC339B85AFA6E6276FA95B2B76586 /* Frameworks */,
+				3C7AA7DB747F3D763A85CA02A5E34121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B277687AE5116591950E9CF70476266 /* PBXTargetDependency */,
+			);
+			name = "Pods-ESPTouchSwift_Tests";
+			productName = "Pods-ESPTouchSwift_Tests";
+			productReference = 4DD9A62746E87333C6910FFA18FDC940 /* Pods_ESPTouchSwift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E49FDA38008CD52BD8B0A99DBFE73100 /* ESPTouchSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780C3E73585224B90CBB2C79D645108A /* Build configuration list for PBXNativeTarget "ESPTouchSwift" */;
+			buildPhases = (
+				C24B5DBF9CA5A81EFEE6F999910FEA1B /* Headers */,
+				3D3F0DD0332C63B0ACAC8F490566004C /* Sources */,
+				0C11139988433758B31E5E551F6E064D /* Frameworks */,
+				33C393CF16C801DDFDDBC94C1B2731C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESPTouchSwift;
+			productName = ESPTouchSwift;
+			productReference = 1FBE614FF474456B49AEF776E1540024 /* ESPTouchSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					E49FDA38008CD52BD8B0A99DBFE73100 = {
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 89EA2BA1D71DBA6A17BF791E5D9AD909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E49FDA38008CD52BD8B0A99DBFE73100 /* ESPTouchSwift */,
+				23FD047C14E92C8A196EC924A309D619 /* Pods-ESPTouchSwift_Example */,
+				4C44814DBA62C11572BF8AEB5BE07A9B /* Pods-ESPTouchSwift_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33C393CF16C801DDFDDBC94C1B2731C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7AA7DB747F3D763A85CA02A5E34121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3F7629D2E67C099B4120BAED693296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3F0DD0332C63B0ACAC8F490566004C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A21254249F2CB600204BC9 /* ESPTouchGenerator.m in Sources */,
+				82A2123E249F2CB600204BC9 /* ESP_CRC8.m in Sources */,
+				82A21258249F2CB600204BC9 /* ESPDataCode.m in Sources */,
+				82A2123B249F2CB600204BC9 /* ESP_NetUtil.m in Sources */,
+				82A2123C249F2CB600204BC9 /* ESP_ByteUtil.m in Sources */,
+				82A21250249F2CB600204BC9 /* ESPUDPSocketServer.m in Sources */,
+				82A21251249F2CB600204BC9 /* ESPUDPSocketClient.m in Sources */,
+				82A2124D249F2CB600204BC9 /* ESPTouchTask.m in Sources */,
+				82A21248249F2CB600204BC9 /* ESPTouchError.swift in Sources */,
+				82A2125A249F2CB600204BC9 /* ESPDatumCode.m in Sources */,
+				82A21239249F2CB600204BC9 /* ESPTouchManager.swift in Sources */,
+				82A21246249F2CB600204BC9 /* ESPAES.m in Sources */,
+				82A2123A249F2CB600204BC9 /* ESPTools.m in Sources */,
+				68C393858EA2F65F3D0FFB6A73DA5A97 /* ESPTouchSwift-dummy.m in Sources */,
+				82A21253249F2CB600204BC9 /* ESPGuideCode.m in Sources */,
+				82A2123D249F2CB600204BC9 /* ESP_WifiUtil.m in Sources */,
+				82A2124A249F2CB600204BC9 /* ESPTouchResult.m in Sources */,
+				82A2124C249F2CB600204BC9 /* ESPTouchTaskParameter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6ADD0CF90F348AD924327F28F6C44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020EB0DB7935BF79EF07375A45B75B0D /* Pods-ESPTouchSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D450F2D36C9BBFC95A15E000283500DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB723AF6EC0F18E8AA61AA2BAE6991F /* Pods-ESPTouchSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B277687AE5116591950E9CF70476266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ESPTouchSwift_Example";
+			target = 23FD047C14E92C8A196EC924A309D619 /* Pods-ESPTouchSwift_Example */;
+			targetProxy = ED414E314EBE9CA98B7459089A84F3E0 /* PBXContainerItemProxy */;
+		};
+		8B929560DDED91934A5151C39F9FC886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ESPTouchSwift;
+			target = E49FDA38008CD52BD8B0A99DBFE73100 /* ESPTouchSwift */;
+			targetProxy = 63D3E2A8C81BE7C819D6A16066971793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		68007CBDA78CD9546324F308F8D58D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4006B2DB3FBDC7C082219BFF908DC00 /* Pods-ESPTouchSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESPTouchSwift_Example/Pods-ESPTouchSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESPTouchSwift_Example/Pods-ESPTouchSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		894FEAFE4D4A9DA55BAB8AC93A7C9C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA4D9BC5895F8D1D6068E9306F2418C /* ESPTouchSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESPTouchSwift/ESPTouchSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESPTouchSwift/ESPTouchSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ESPTouchSwift/ESPTouchSwift.modulemap";
+				PRODUCT_MODULE_NAME = ESPTouchSwift;
+				PRODUCT_NAME = ESPTouchSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CE6884F3962F50F6419D5AD873F8132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9170A86B0670B113E4175EDD4DB912A8 /* ESPTouchSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESPTouchSwift/ESPTouchSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESPTouchSwift/ESPTouchSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ESPTouchSwift/ESPTouchSwift.modulemap";
+				PRODUCT_MODULE_NAME = ESPTouchSwift;
+				PRODUCT_NAME = ESPTouchSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		907B1C949515785F7A63943DF57591F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90598CA33379788D1FE6F472DDBF8933 /* Pods-ESPTouchSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESPTouchSwift_Tests/Pods-ESPTouchSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESPTouchSwift_Tests/Pods-ESPTouchSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7601A176F61989BE6DF7C5F504BC7F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB013BE96DCA507E2BBAC43EEECBD01 /* Pods-ESPTouchSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESPTouchSwift_Tests/Pods-ESPTouchSwift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESPTouchSwift_Tests/Pods-ESPTouchSwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BCD1DF582099F65F6DC6AD435473AE7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7E06970292D4A491B42010297370DA /* Pods-ESPTouchSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESPTouchSwift_Example/Pods-ESPTouchSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESPTouchSwift_Example/Pods-ESPTouchSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5F7CFA97E837F872870689E427A2F2 /* Build configuration list for PBXNativeTarget "Pods-ESPTouchSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7601A176F61989BE6DF7C5F504BC7F4 /* Debug */,
+				907B1C949515785F7A63943DF57591F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D856EA1B5DA36C54BBBAA4812701FFF /* Build configuration list for PBXNativeTarget "Pods-ESPTouchSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD1DF582099F65F6DC6AD435473AE7D /* Debug */,
+				68007CBDA78CD9546324F308F8D58D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780C3E73585224B90CBB2C79D645108A /* Build configuration list for PBXNativeTarget "ESPTouchSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE6884F3962F50F6419D5AD873F8132 /* Debug */,
+				894FEAFE4D4A9DA55BAB8AC93A7C9C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "ESPTouchSwift",
+  "version": "0.1.0",
+  "summary": "A short description of ESPTouchSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/WooKeyWallet/ESPTouchSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "WooKeyWallet": "cook@apple.com"
+  },
+  "source": {
+    "git": "https://github.com/WooKeyWallet/ESPTouchSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ESPTouchSwift/Classes/**/*"
+}

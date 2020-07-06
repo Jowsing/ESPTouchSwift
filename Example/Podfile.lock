@@ -1,0 +1,16 @@
+PODS:
+  - ESPTouchSwift (0.1.0)
+
+DEPENDENCIES:
+  - ESPTouchSwift (from `../`)
+
+EXTERNAL SOURCES:
+  ESPTouchSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ESPTouchSwift: e7b617ed10a7ba0df8b7fa7a3af3919b4bd96e64
+
+PODFILE CHECKSUM: ad66978c83042d8f281e5041931ec9dcea956188
+
+COCOAPODS: 1.9.1
