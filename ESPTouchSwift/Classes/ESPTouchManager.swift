@@ -35,19 +35,23 @@ public class ESPTouchManager: NSObject {
     
     public func smartConfig(password: String, response: ((Result<ESPTouchResult, ESPTouchError>) -> Void)?) {
         let dispatchQueue = DispatchQueue.global(qos: .default)
+        var isCompletion = false
         dispatchQueue.async {
             guard let ssid = ESPTools.getCurrentWiFiSsid(),
                 let bssid = ESPTools.getCurrentBSSID()
             else {
+                isCompletion = true
                 response?(.failure(.noSsid))
                 return
             }
             let results = self.execute(ssid, bssid: bssid, password: password, taskCount: 1, broadcast: true)
-            if let result = results.first {
+            if let result = results.first, (result.bssid ?? "").count > 0 {
+                isCompletion = true
                 response?(.success(result))
             }
         }
         dispatchQueue.asyncAfter(deadline: .now() + timeout) {
+            guard !isCompletion else { return }
             self.cancel()
             response?(.failure(.timeout))
         }
